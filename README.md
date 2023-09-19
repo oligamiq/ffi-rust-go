@@ -59,3 +59,11 @@ The moment I call a Go function, it freezes.
 
 # I want to move everything normally. Is there any way to do this?
 Your confirmation on the OS and input is welcome!
+
+# information
+my test on https://github.com/oligami-0424/ffi-rust-go/tree/74ff80108e54d2c53252e241a8225859c45ed4f4
+compile tool is gcc (Strawberry)
+|success| c lang call static golang 
+|success| c lang call static c lang 
+|success| rust lang call static c lang 
+|failed | rust lang call static go lang 
