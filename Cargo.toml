@@ -1,14 +1,11 @@
 [package]
-name = "oracle-nosql-db-sdk-rust"
-version = "0.3.2"
+name = "ffi-rust-go"
+version = "0.1.0"
 edition = "2021"
 license = "MIT"
-description = "oracle nosql db sdk for rust"
+description = "This is a ffi that calls go from rust"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
-libc = "0.2"
 
 [build-dependencies]
 cgo_oligami = "0.3"
