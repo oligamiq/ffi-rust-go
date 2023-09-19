@@ -1,14 +1,10 @@
 extern "C" {
-    fn ffi_gophernize_num();
-    // fn ffi_ffi_gophernize_num();
-    // fn A();
+    fn ffi_go_print();
 }
 
 fn main() {
-    loop {
-        println!("####0");
+    println!(":print on rust");
+    unsafe { ffi_go_print() };
 
-        // unsafe { ffi_ffi_gophernize_num() };
-        unsafe { ffi_gophernize_num() };
-    }
+    println!("program end");
 }
