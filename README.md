@@ -62,8 +62,10 @@ Your confirmation on the OS and input is welcome!
 
 # information
 my test on https://github.com/oligami-0424/ffi-rust-go/tree/74ff80108e54d2c53252e241a8225859c45ed4f4
+
 compile tool is gcc (Strawberry)
-|success| c lang call static golang 
-|success| c lang call static c lang 
-|success| rust lang call static c lang 
-|failed | rust lang call static go lang 
+
+- |success| c lang call static golang
+- |success| c lang call static c lang 
+- |success| rust lang call static c lang 
+- |failed | rust lang call static go lang 
