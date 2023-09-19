@@ -1,0 +1,5 @@
+/target
+/Cargo.lock
+/golib/target
+/golib/out_dir
+/golib/*.a
