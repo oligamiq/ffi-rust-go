@@ -49,13 +49,21 @@ Segmentation fault
 # Run
 We have confirmed that it works fine in WSL (Ubuntu), but it does not work well in other operating systems.
 ## On WSL (Ubuntu)
+on all
 Complete program!
 
 ## On alpine
+# on all
 Go into a Go function and cause a Segmentation fault.
 
 ## On windows
 The moment I call a Go function, it freezes.
+
+### on nightly
+error: linking with `link.exe` failed: exit code: 1120
+libstd-d9ee307034db292c.rlib(std-d9ee307034db292c.std.e9da0a539f4e1ec4-cgu.0.rcgu.o) : warning LNK4078: multiple '.drectve' sections found with different attributes (00100A00)
+          libffi_go_print.lib(000005.o) : error LNK2019: unresolved external symbol fprintf referenced in function _cgo_beginthread
+          C:\Users\oligami\ffi-rust-go\target\debug\deps\ffi_rust_go.exe : fatal error LNK1120: 1 unresolved externals
 
 # I want to move everything normally. Is there any way to do this?
 Your confirmation on the OS and input is welcome!
