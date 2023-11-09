@@ -9,3 +9,6 @@ description = "This is a ffi that calls go from rust"
 
 [build-dependencies]
 cgo_oligami = "0.3"
+
+# [target."cfg(target_os = \"windows\")".build-dependencies]
+# libc = "0.2"
